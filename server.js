@@ -7,7 +7,7 @@ const helmet = require('helmet');
 const path = require('path');
 
 const server = express();
-const PORT = process.argv[2] || process.env.PORT || 4000;
+const PORT = process.argv[2] || process.env.PORT || 3000;
 const articleRoute = require('./routes/api/article.js');
 
 server.use(logger('dev'));
